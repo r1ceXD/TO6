@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Explore television energy consumption by screen size, technology, brand, and energy rating."
+    >
+    <title>TV Energy Consumption</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/visualisations.css">
+
+  </head>
+  <body>
+    <header class="page-header">
+      <div class="page-header__content">
+        <h1>TV Energy Consumption</h1>
+      </div>
+    </header>
+
+    <div id="filters_screen"></div>
+
+    <div id="histogram" class="responsive-svg-container"></div>
+    <div class="body">
+        <h3>Data source</h3>
+        <p>
+            Downloaded Jan 2025
+        </p>
+    </div>
+
+    </main>
+
+    <footer class="page-footer">
+      <p>TV Energy Consumption Explorer</p>
+    </footer>
+
+    <script src="https://d3js.org/d3.v7.min.js" defer></script>
+    <script src="js/load-data.js" defer></script>
+    <script src="js/shared-constants.js" defer></script>
+    <script src="js/interaction.js" defer></script>
+    <script src="js/histogram.js" defer></script>
+  </body>
+</html>
