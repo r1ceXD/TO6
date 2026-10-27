@@ -11,6 +11,25 @@ body {
   margin: 0;
 }
 
+h2 {
+  margin-left: 35px;
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+p {
+  margin-left: 35px;
+  font-size: 20px;
+}
+
+.text_bottom {
+  text-decoration: none;
+  color: #176b58;
+  margin-left: 35px;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
 .page-header {
   background-color: #123047;
   color: #fff;
